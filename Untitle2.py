@@ -18,6 +18,8 @@ from keras.regularizers import l2
 from keras.optimizers import Adam
 from keras.models import Model
 
+
+
 dr = pd.read_csv("RegularSeasonDetailedResults.csv")
 
 simple_df_1 = pd.DataFrame()
